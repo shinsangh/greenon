@@ -1,0 +1,13 @@
+image: php:7.4.1
+
+pipelines:
+ branches:
+
+   master:
+     - step:
+         name: Deploy to staging
+         deployment: Staging
+         script:
+           - apt-get update
+           - apt-get -qq install git-ftp
+           - git ftp push --user $ftp_username --passwd $ftp_password ftp.prova.salonbooking.it/public_html/wp-content/plugins/salon-booking-system

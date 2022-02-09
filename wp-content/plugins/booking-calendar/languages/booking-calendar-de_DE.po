@@ -1,0 +1,2638 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking Calendar WpDevArt\n"
+"POT-Creation-Date: 2022-01-20 12:26+0100\n"
+"PO-Revision-Date: 2022-01-26 18:51+0400\n"
+"Last-Translator: Mathias Fiege\n"
+"Language-Team: https://www.WebPension.de\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: booking_calendar.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/views/Calendars.php:25 admin/views/UserPermissions.php:15
+msgid "Calendars"
+msgstr "Kalender"
+
+#: admin/views/Calendars.php:27 admin/views/Calendars.php:1035
+msgid "Add Calendar"
+msgstr "Kalender hinzufügen"
+
+#: admin/views/Calendars.php:28 admin/views/Calendars.php:43
+#: admin/views/Calendars.php:60 admin/views/Extras.php:25
+#: admin/views/Extras.php:47 admin/views/Extras.php:63 admin/views/Forms.php:28
+#: admin/views/Forms.php:50 admin/views/Forms.php:66
+#: admin/views/Reservations.php:105 admin/views/Reservations.php:433
+#: admin/views/Themes.php:25 admin/views/Themes.php:47
+#: admin/views/Themes.php:63
+msgid "Delete"
+msgstr "Löschen"
+
+#: admin/views/Calendars.php:36 admin/views/Extras.php:40
+#: admin/views/Forms.php:43 admin/views/Reservations.php:166
+#: admin/views/Themes.php:40
+msgid "ID"
+msgstr "ID"
+
+#: admin/views/Calendars.php:37 admin/views/Extras.php:41
+#: admin/views/Forms.php:44 admin/views/Themes.php:41
+msgid "Title"
+msgstr "Titel"
+
+#: admin/views/Calendars.php:38
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/views/Calendars.php:40 admin/views/Extras.php:43
+#: admin/views/Forms.php:46 admin/views/Themes.php:43
+msgid "User"
+msgstr "Benutzer"
+
+#: admin/views/Calendars.php:42 admin/views/Calendars.php:59
+#: admin/views/Extras.php:46 admin/views/Extras.php:62 admin/views/Forms.php:49
+#: admin/views/Forms.php:65 admin/views/Reservations.php:437
+#: admin/views/Themes.php:46 admin/views/Themes.php:62
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: admin/views/Calendars.php:99
+msgid "Calendar Title"
+msgstr "Kalendertitel"
+
+#: admin/views/Calendars.php:106
+msgid "Theme"
+msgstr "Thema"
+
+#: admin/views/Calendars.php:115
+msgid "Form"
+msgstr "Formular"
+
+#: admin/views/Calendars.php:123
+msgid "Extra"
+msgstr "Extra"
+
+#: admin/views/Calendars.php:1012
+msgid "Start Date"
+msgstr "Anfangsdatum"
+
+#: admin/views/Calendars.php:1019
+msgid "End Date"
+msgstr "Enddatum"
+
+#: admin/views/Calendars.php:1033
+msgid "Edit Calendar"
+msgstr "Kalender bearbeiten"
+
+#: admin/views/Calendars.php:1040 admin/views/Calendars.php:1083
+#: admin/views/Extras.php:180 admin/views/Forms.php:141
+#: admin/views/GlobalSettings.php:61 admin/views/Themes.php:2418
+#: admin/views/UserPermissions.php:123
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/views/Calendars.php:1041 admin/views/Calendars.php:1084
+#: admin/views/Extras.php:181 admin/views/Forms.php:142
+#: admin/views/Reservations.php:144 admin/views/Themes.php:2419
+msgid "Apply"
+msgstr "Anwenden"
+
+#: admin/views/Calendars.php:1093 admin/views/Themes.php:2506
+msgid "Current"
+msgstr "Aktuell"
+
+#: admin/views/Calendars.php:1094 admin/views/Themes.php:2507
+#: includes/textfortr.php:2
+msgid "January"
+msgstr "Januar"
+
+#: admin/views/Calendars.php:1095 admin/views/Themes.php:2508
+#: includes/textfortr.php:3
+msgid "February"
+msgstr "Februar"
+
+#: admin/views/Calendars.php:1096 admin/views/Themes.php:2509
+#: includes/textfortr.php:4
+msgid "March"
+msgstr "März"
+
+#: admin/views/Calendars.php:1097 admin/views/Themes.php:2510
+#: includes/textfortr.php:5
+msgid "April"
+msgstr "April"
+
+#: admin/views/Calendars.php:1098 admin/views/Themes.php:2511
+#: includes/textfortr.php:6 includes/textfortr.php:20
+msgid "May"
+msgstr "Mai"
+
+#: admin/views/Calendars.php:1099 admin/views/Themes.php:2512
+#: includes/textfortr.php:7
+msgid "June"
+msgstr "Juni"
+
+#: admin/views/Calendars.php:1100 admin/views/Themes.php:2513
+#: includes/textfortr.php:8
+msgid "July"
+msgstr "Juli"
+
+#: admin/views/Calendars.php:1101 admin/views/Themes.php:2514
+#: includes/textfortr.php:9
+msgid "August"
+msgstr "August"
+
+#: admin/views/Calendars.php:1102 admin/views/Themes.php:2515
+#: includes/textfortr.php:10
+msgid "September"
+msgstr "September"
+
+#: admin/views/Calendars.php:1103 admin/views/Themes.php:2516
+#: includes/textfortr.php:11
+msgid "October"
+msgstr "Oktober"
+
+#: admin/views/Calendars.php:1104 admin/views/Themes.php:2517
+#: includes/textfortr.php:12
+msgid "November"
+msgstr "November"
+
+#: admin/views/Calendars.php:1105 admin/views/Themes.php:2518
+#: includes/textfortr.php:13
+msgid "December"
+msgstr "Dezember"
+
+#: admin/views/Extras.php:22 admin/views/UserPermissions.php:58
+msgid "Extras"
+msgstr "Extras"
+
+#: admin/views/Extras.php:24 admin/views/Extras.php:172
+msgid "Add Extra"
+msgstr "Extra hinzufügen"
+
+#: admin/views/Extras.php:45 admin/views/Extras.php:61 admin/views/Forms.php:48
+#: admin/views/Forms.php:64 admin/views/Themes.php:45 admin/views/Themes.php:61
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#: admin/views/Extras.php:170
+msgid "Edit Extra"
+msgstr "Extra bearbeiten"
+
+#: admin/views/Extras.php:179
+msgid "Extra Name"
+msgstr "Zusätzlicher Name"
+
+#: admin/views/Extras.php:183
+msgid "Add extra field"
+msgstr "Extra Formularfeld hinzufügen"
+
+#: admin/views/Extras.php:189
+msgid "Extras fields"
+msgstr "Extra Felder"
+
+#: admin/views/Forms.php:25 admin/views/UserPermissions.php:41
+msgid "Forms"
+msgstr "Formulare"
+
+#: admin/views/Forms.php:27 admin/views/Forms.php:133
+msgid "Add Form"
+msgstr "Formular hinzufügen"
+
+#: admin/views/Forms.php:131
+msgid "Edit Form"
+msgstr "Formular bearbeiten"
+
+#: admin/views/Forms.php:140
+msgid "Form Name"
+msgstr "Formular Name"
+
+#: admin/views/Forms.php:144
+msgid "Add form field"
+msgstr "Formularfeld hinzufügen"
+
+#: admin/views/Forms.php:146
+msgid "Text"
+msgstr "Text"
+
+#: admin/views/Forms.php:147
+msgid "Textarea"
+msgstr "Textbereich"
+
+#: admin/views/Forms.php:148
+msgid "Checkbox"
+msgstr "Kontrollkästchen"
+
+#: admin/views/Forms.php:150
+msgid "Drop down"
+msgstr "Dropdown-Liste"
+
+#: admin/views/Forms.php:151
+msgid "Drop down(Countries)"
+msgstr "Dropdown (Länder)"
+
+#: admin/views/Forms.php:152
+msgid "Google ReCapthcha"
+msgstr "Google ReCapthcha"
+
+#: admin/views/Forms.php:157
+msgid "File Upload"
+msgstr "Datei hochladen"
+
+#: admin/views/Forms.php:168
+msgid "Form fields"
+msgstr "Formularfelder"
+
+#: admin/views/GlobalSettings.php:12 admin/views/Themes.php:81
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/views/GlobalSettings.php:17 admin/views/GlobalSettings.php:18
+msgid "Recaptcha Public Key:"
+msgstr "Recaptcha Public Key:"
+
+#: admin/views/GlobalSettings.php:25 admin/views/GlobalSettings.php:26
+msgid "Recaptcha Private Key:"
+msgstr "Recaptcha Private Key:"
+
+#: admin/views/GlobalSettings.php:40 admin/views/GlobalSettings.php:41
+msgid "If you have a problem with the database please press this button"
+msgstr "Wenn es ein Problem mit der Datenbank gibt, bitte diesen Knopf drücken"
+
+#: admin/views/GlobalSettings.php:42
+msgid "Recreate database"
+msgstr "Datenbank neu erstellen"
+
+#: admin/views/GlobalSettings.php:57
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: admin/views/Reservations.php:50
+msgid "Reservations List View"
+msgstr "Reservierungen Listenansicht"
+
+#: admin/views/Reservations.php:53 admin/views/Reservations.php:483
+#: admin/views/Reservations.php:522
+msgid "Select Calendar"
+msgstr "Kalender auswählen"
+
+#: admin/views/Reservations.php:58 admin/views/Reservations.php:488
+#: admin/views/Reservations.php:527
+msgid "Reservation List View"
+msgstr "Reservierungen Listenansicht"
+
+#: admin/views/Reservations.php:60 admin/views/Reservations.php:62
+#: admin/views/Reservations.php:489 admin/views/Reservations.php:529
+#: admin/views/Reservations.php:531
+msgid "Reservation Month View"
+msgstr "Reservierungen Monatsansicht"
+
+#: admin/views/Reservations.php:64 admin/views/Reservations.php:490
+#: admin/views/Reservations.php:519 admin/views/Reservations.php:533
+msgid "Add Reservation"
+msgstr "Reservierung hinzufügen"
+
+#: admin/views/Reservations.php:72
+msgid "Statistics"
+msgstr "Statistik"
+
+#: admin/views/Reservations.php:75
+msgid "Actions"
+msgstr "Aktionen"
+
+#: admin/views/Reservations.php:78
+msgid "Filters"
+msgstr "Filter"
+
+#: admin/views/Reservations.php:85 admin/views/Reservations.php:95
+msgid "New reservations"
+msgstr "Neue Reservierung"
+
+#: admin/views/Reservations.php:102 admin/views/Reservations.php:426
+msgid "Approve"
+msgstr "Genehmigen"
+
+#: admin/views/Reservations.php:103 admin/views/Reservations.php:428
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: admin/views/Reservations.php:104 admin/views/Reservations.php:431
+#: admin/views/Reservations.php:445
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: admin/views/Reservations.php:106 admin/views/Reservations.php:418
+msgid "Mark as read"
+msgstr "Als gelesen markieren"
+
+#: admin/views/Reservations.php:107
+msgid "Export as excel"
+msgstr "Als Excel exportieren"
+
+#: admin/views/Reservations.php:108
+msgid "All Pages"
+msgstr "Alle Seiten"
+
+#: admin/views/Reservations.php:110
+msgid "Show all details"
+msgstr "Alle Elemente anzeigen"
+
+#: admin/views/Reservations.php:114
+msgid "Select Status"
+msgstr "Status auswählen"
+
+#: admin/views/Reservations.php:116 admin/views/Reservations.php:237
+#: admin/views/Themes.php:320
+msgid "Approved"
+msgstr "Genehmigt"
+
+#: admin/views/Reservations.php:119 admin/views/Reservations.php:241
+msgid "Canceled"
+msgstr "Abgebrochen"
+
+#: admin/views/Reservations.php:122 admin/views/Reservations.php:239
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+#: admin/views/Reservations.php:125 admin/views/Reservations.php:235
+#: admin/views/Themes.php:321
+msgid "Pending"
+msgstr "Wartend"
+
+#: admin/views/Reservations.php:129
+msgid "Period"
+msgstr "Zeitraum"
+
+#: admin/views/Reservations.php:131 includes/textfortr.php:60
+msgid "Check in"
+msgstr "Beginn"
+
+#: admin/views/Reservations.php:134 includes/textfortr.php:61
+msgid "Check out"
+msgstr "Ende"
+
+#: admin/views/Reservations.php:138
+msgid "Search"
+msgstr "Suchen"
+
+#: admin/views/Reservations.php:167
+msgid "Status"
+msgstr "Status"
+
+#: admin/views/Reservations.php:168
+msgid "Reservation information"
+msgstr "Reservierungs-Informationen"
+
+#: admin/views/Reservations.php:170
+msgid "Payment information"
+msgstr "Bezahl-Informationen"
+
+#: admin/views/Reservations.php:172 includes/wpdevart_lib.php:1399
+msgid "Reservation dates"
+msgstr "Reservierungs-Daten"
+
+#: admin/views/Reservations.php:251 includes/wpdevart_lib.php:1398
+msgid "Details"
+msgstr "Details"
+
+#: admin/views/Reservations.php:252 includes/booking_class.php:743
+#: includes/main_class.php:615
+msgid "Item Count"
+msgstr "Stückzahl"
+
+#: admin/views/Reservations.php:254 includes/admin_menu.php:81
+#: includes/admin_menu.php:112 includes/booking_class.php:745
+#: includes/main_class.php:617 includes/textfortr.php:69
+#: includes/wpdevart_lib.php:669 includes/wpdevart_lib.php:684
+msgid "Price"
+msgstr "Preis"
+
+#: admin/views/Reservations.php:255 booking_calendar.php:218
+#: includes/booking_class.php:746
+msgid "Total Price"
+msgstr "Gesamtpreis"
+
+#: admin/views/Reservations.php:266 includes/booking_class.php:753
+msgid "Hours"
+msgstr "Stunden"
+
+#: admin/views/Reservations.php:288 includes/booking_class.php:772
+#: includes/wpdevart_lib.php:1412
+msgid "Contact Information"
+msgstr "Kontakt-Informationen"
+
+#: admin/views/Reservations.php:299 booking_calendar.php:468
+msgid "File"
+msgstr "Datei"
+
+#: admin/views/Reservations.php:308 includes/booking_class.php:789
+#: includes/wpdevart_lib.php:1424
+msgid "Extra Information"
+msgstr "Zusatzinformation"
+
+#: admin/views/Reservations.php:321 includes/booking_class.php:806
+#: includes/main_class.php:630 includes/wpdevart_lib.php:1437
+msgid "Price change"
+msgstr "Preisänderung"
+
+#: admin/views/Reservations.php:328
+msgid "Billing address"
+msgstr "Rechnungsadresse"
+
+#: admin/views/Reservations.php:346
+msgid "Shipping address"
+msgstr "Lieferadresse"
+
+#: admin/views/Reservations.php:369
+msgid "Payment method - Paypal"
+msgstr "Bezahlmethode - PayPal"
+
+#: admin/views/Reservations.php:374 admin/views/Reservations.php:400
+msgid "Payment Status"
+msgstr "Bezahlstatus"
+
+#: admin/views/Reservations.php:383
+msgid "Paymant Information"
+msgstr "Bezahlinformationen"
+
+#: admin/views/Reservations.php:399
+msgid "Payment method - Pay in cash"
+msgstr "Bezahlmethode - Barzahlung"
+
+#: admin/views/Reservations.php:414 booking_calendar.php:140
+#: includes/admin_menu.php:80 includes/admin_menu.php:98
+#: includes/admin_menu.php:111 includes/booking_class.php:738
+#: includes/main_class.php:610 includes/wpdevart_lib.php:668
+#: includes/wpdevart_lib.php:683
+msgid "Hour"
+msgstr "Stunde"
+
+#: admin/views/Reservations.php:418
+msgid "New"
+msgstr "Neu"
+
+#: admin/views/Reservations.php:443
+msgid "Payment Status Edit"
+msgstr "Bezahlstatus"
+
+#: admin/views/Reservations.php:446
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: admin/views/Reservations.php:451
+msgid "Created:"
+msgstr "Erstellt:"
+
+#: admin/views/Reservations.php:480
+msgid "Reservations Month View"
+msgstr "Reservierungen Monatsansicht"
+
+#: admin/views/Reservations.php:557
+msgid "Edit Reservation"
+msgstr "Reservierung bearbeiten"
+
+#: admin/views/Themes.php:22 admin/views/UserPermissions.php:75
+msgid "Themes"
+msgstr "Themen"
+
+#: admin/views/Themes.php:24 admin/views/Themes.php:2410
+#: includes/wpdevart_lib.php:389
+msgid "Add Theme"
+msgstr "Theme hinzufügen"
+
+#: admin/views/Themes.php:86
+msgid "Date format"
+msgstr "Datumsformat"
+
+#: admin/views/Themes.php:87
+msgid "Select date format for emails and the reservation table"
+msgstr "Datumsformat für E-Mails und die Reservierungstabelle auswählen"
+
+#: admin/views/Themes.php:99
+msgid "Week days format"
+msgstr "Wochentageformat"
+
+#: admin/views/Themes.php:100 admin/views/Themes.php:112
+msgid "Select week days format"
+msgstr "Wochentageformat auswählen"
+
+#: admin/views/Themes.php:102 admin/views/Themes.php:114
+#: admin/views/Themes.php:140 admin/views/Themes.php:211
+#: includes/textfortr.php:30
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: admin/views/Themes.php:103 admin/views/Themes.php:115
+#: includes/textfortr.php:39
+msgid "Sun"
+msgstr "Son"
+
+#: admin/views/Themes.php:104 admin/views/Themes.php:116
+#: includes/textfortr.php:48
+msgid "Su"
+msgstr "So"
+
+#: admin/views/Themes.php:111
+msgid "Week days format on mobile"
+msgstr "Wochentageformat auf einem Mobilgerät"
+
+#: admin/views/Themes.php:137
+msgid "Start Day of the week"
+msgstr "Starttag der Woche"
+
+#: admin/views/Themes.php:138
+msgid "Select start day of the week for Calendar"
+msgstr "Wählen Sie den Starttag der Woche für den Kalender"
+
+#: admin/views/Themes.php:141 admin/views/Themes.php:212
+#: includes/textfortr.php:31
+msgid "Monday"
+msgstr "Montag"
+
+#: admin/views/Themes.php:142 admin/views/Themes.php:213
+#: includes/textfortr.php:32
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: admin/views/Themes.php:143 admin/views/Themes.php:214
+#: includes/textfortr.php:33
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: admin/views/Themes.php:144 admin/views/Themes.php:215
+#: includes/textfortr.php:34
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: admin/views/Themes.php:145 admin/views/Themes.php:216
+#: includes/textfortr.php:35
+msgid "Friday"
+msgstr "Freitag"
+
+#: admin/views/Themes.php:146 admin/views/Themes.php:217
+#: includes/textfortr.php:36
+msgid "Saturday"
+msgstr "Samstag"
+
+#: admin/views/Themes.php:153
+msgid "Default Year"
+msgstr "Standardjahr"
+
+#: admin/views/Themes.php:154
+msgid "Type here default year(for example 2018)"
+msgstr "Standardjahr hier eingeben (z.B. 2022)"
+
+#: admin/views/Themes.php:161
+msgid "Default Month"
+msgstr "Standardmonat"
+
+#: admin/views/Themes.php:162
+msgid "Select default month for Calendar"
+msgstr "Standardmonat für den Kalender auswählen"
+
+#: admin/views/Themes.php:170
+msgid "Change Month With Select"
+msgstr "Monat mit der Auswahl ändern"
+
+#: admin/views/Themes.php:177
+msgid "Calendar Animation type"
+msgstr "Art der Kalenderanimation"
+
+#: admin/views/Themes.php:178
+msgid "Select calendar animation type"
+msgstr "Art der Kalenderanimation auswählen"
+
+#: admin/views/Themes.php:186
+msgid "Scroll Offset"
+msgstr "Scrollbereich"
+
+#: admin/views/Themes.php:187
+msgid ""
+"After selecting date or hour on calendar you will be scroll down to the "
+"form, so correct the scrolling distance using this option, type only "
+"numbers(also you can type reverse numbers, for example -150)"
+msgstr ""
+"Nachdem Sie das Datum oder die Stunde im Kalender ausgewählt haben, werden "
+"Sie nach unten zum Formular gescrollt. Korrigieren Sie also den "
+"Scrollabstand mit dieser Option, geben Sie nur Zahlen ein (Sie können auch "
+"negative  Zahlen eingeben, z. B. -150)."
+
+#: admin/views/Themes.php:193
+msgid "Show Form before select the days"
+msgstr "Formular anzeigen, bevor die Tage ausgewählt werden"
+
+#: admin/views/Themes.php:194
+msgid ""
+"Use this option if you need to display form before users select date or hour "
+"on the calendar"
+msgstr ""
+"Verwenden Sie diese Option, wenn Sie das Formular anzeigen müssen, bevor "
+"Benutzer Datum oder Stunde im Kalender auswählen"
+
+#: admin/views/Themes.php:201 admin/views/Themes.php:202
+msgid "Hide Price in Form"
+msgstr "Preisangabe im Formular verstecken"
+
+#: admin/views/Themes.php:208
+msgid "Unavailable week days"
+msgstr "Nicht verfügbare Wochentage"
+
+#: admin/views/Themes.php:209
+msgid "Select unavailable week days for calendar"
+msgstr "Wählen Sie nicht verfügbare Wochentage für den Kalender aus"
+
+#: admin/views/Themes.php:224
+msgid "Type of days selection in calendar"
+msgstr "Typ der Auswahl der Tage im Kalender"
+
+#: admin/views/Themes.php:225
+msgid "Select the type of days selection in calendar"
+msgstr "Wählen Sie die Art der Auswahl der Tage im Kalender"
+
+#: admin/views/Themes.php:227
+msgid "Multiple days"
+msgstr "Mehrere Tage"
+
+#: admin/views/Themes.php:227
+msgid "Single day"
+msgstr "Einzelner Tag"
+
+#: admin/views/Themes.php:233
+msgid "Discount depending on the days"
+msgstr "Rabatt ist abhängig von den Tagen"
+
+#: admin/views/Themes.php:242
+msgid "Minumum booking day"
+msgstr "Mindestanzahl zu buchender Tage"
+
+#: admin/views/Themes.php:243
+msgid ""
+"Select the minimum booking day, if you left this field empty then it will "
+"automatically set minimum booking day equals one"
+msgstr ""
+"Wählen Sie die Mindestanzahl an Buchungen aus. Wenn Sie dieses Feld leer "
+"gelassen haben, wird automatisch ein Mindestbuchungstag von eins festgelegt"
+
+#: admin/views/Themes.php:250
+msgid "Maximum booking days"
+msgstr "Maximale Anzahl buchbarer Tage"
+
+#: admin/views/Themes.php:251
+msgid ""
+"Select the maximum booking days, if you left this field empty then users can "
+"book unlimited days"
+msgstr ""
+"Wählen Sie den maximalen Buchungszeitraum aus. Wenn Sie dieses Feld leer "
+"gelassen haben, können Benutzer unbegrenzt viele Tage buchen"
+
+#: admin/views/Themes.php:258 admin/views/Themes.php:259
+msgid "Calculate price for night"
+msgstr "Berechne Preise pro Nacht"
+
+#: admin/views/Themes.php:265
+msgid "Enable Check in/Check out"
+msgstr "Check in/Check out aktivieren"
+
+#: admin/views/Themes.php:266
+msgid "Show Check in/Check out text in Form"
+msgstr "Zeige Check in/Check out Text im Formular"
+
+#: admin/views/Themes.php:272
+msgid "Enable Number of night"
+msgstr "Aktiviere Anzahl an Nächten"
+
+#: admin/views/Themes.php:279
+msgid "Show items count in form"
+msgstr "Zeige die Anzahl an Elementen im Formular"
+
+#: admin/views/Themes.php:280
+msgid "Use this option if you need show the number of items in form"
+msgstr ""
+"Nutze diese Option, wenn die Anzahl der Elemente im Formular angezeigt "
+"werden sollen"
+
+#: admin/views/Themes.php:286
+msgid "Maximum item count"
+msgstr "Maximale Stückzahl"
+
+#: admin/views/Themes.php:287
+msgid ""
+"Type the maximum item count that users can choose per one booking request."
+msgstr ""
+"Hier wird die maximale Stückzahl eingetragen, die Benutzer pro "
+"Buchungsanfrage auswählen können."
+
+#: admin/views/Themes.php:293
+msgid "Minimum item count"
+msgstr "Minimale Stückzahl"
+
+#: admin/views/Themes.php:294
+msgid ""
+"Type the minimum item count that users can choose per one booking request."
+msgstr ""
+"Hier wird die minimale Stückzahl eingetragen, die Benutzer pro "
+"Buchungsanfrage auswählen können."
+
+#: admin/views/Themes.php:300
+msgid "Hide number of available events"
+msgstr "Anzahl verfügbarer Ereignisse ausblenden"
+
+#: admin/views/Themes.php:301
+msgid ""
+"Select this option if you don't need to display the number of available "
+"events on calendar in front-end"
+msgstr ""
+"Diese Option ist notwendig, wenn Sie die Anzahl der verfügbaren Ereignisse "
+"im Kalender nicht angezeigt werden sollen"
+
+#: admin/views/Themes.php:307
+msgid "Show users information on the Calendar(Front-end)"
+msgstr "Zeige Benutzerinformationen im Kalender"
+
+#: admin/views/Themes.php:308
+msgid "This option allows to display users information on the calendar"
+msgstr ""
+"Diese Option ermöglicht die Anzeige von Benutzerinformationen im Kalender"
+
+#: admin/views/Themes.php:315
+msgid "Which status to display?"
+msgstr "Welcher Status soll angezeigt werden?"
+
+#: admin/views/Themes.php:316
+msgid "Check the status that will be displayed"
+msgstr "Prüft den Status, welcher angezeigt wird"
+
+#: admin/views/Themes.php:327
+msgid "Show users names"
+msgstr "Zeige Benutzernamen"
+
+#: admin/views/Themes.php:328
+msgid "This option will display users names on the calendar."
+msgstr "Durch diese Option werden Benutzernamen im Kalender angezeigt."
+
+#: admin/views/Themes.php:334
+msgid "Show users emails"
+msgstr "Zeige die E-Mailadresse der Benutzer"
+
+#: admin/views/Themes.php:335
+msgid "This option will display users emails on the calendar."
+msgstr ""
+"Mit dieser Option werden die E-Mailadressen der Benutzer im Kalender "
+"angezeigt."
+
+#: admin/views/Themes.php:341
+msgid "Show reservation status"
+msgstr "Zeigt den Reservierungsstatus an"
+
+#: admin/views/Themes.php:342
+msgid "This option will display reservation status on the calendar."
+msgstr "Diese Option zeigt den Reservierungsstatus im Kalender an."
+
+#: admin/views/Themes.php:356
+msgid "Enable Terms & Conditions"
+msgstr "AGB aktivieren"
+
+#: admin/views/Themes.php:357
+msgid "Enable Terms & Conditions option"
+msgstr "Aktiviert die Option für die AGB"
+
+#: admin/views/Themes.php:364
+msgid "Terms & Conditions link"
+msgstr "Weiterleitung zu  den AGB"
+
+#: admin/views/Themes.php:365
+msgid "Insert here the url for Terms & Conditions text"
+msgstr "Hier wird die URL zu den AGB eingefügt"
+
+#: admin/views/Themes.php:373
+msgid "Show title of Form"
+msgstr "Titel des Formulars anzeigen"
+
+#: admin/views/Themes.php:374
+msgid "Show or hide the title of form"
+msgstr "Zeigt oder versteckt den Titel des Formulars"
+
+#: admin/views/Themes.php:380
+msgid "Enable title of Extra"
+msgstr "Extratitel aktivieren"
+
+#: admin/views/Themes.php:381
+msgid "Show or hide the title of Extra"
+msgstr "Zeigt oder versteckt den Extratitel"
+
+#: admin/views/Themes.php:387
+msgid "Booking layout"
+msgstr "Buchungslayout"
+
+#: admin/views/Themes.php:390
+msgid "Form below calendar"
+msgstr "Formular unter dem Kalender"
+
+#: admin/views/Themes.php:390
+msgid "Form in the right side"
+msgstr "Formular auf der rechten Seite"
+
+#: admin/views/Themes.php:396
+msgid "Calendar width in percent"
+msgstr "Kalenderbreite in Prozent"
+
+#: admin/views/Themes.php:403
+msgid "Form width in percent"
+msgstr "Formularbreite in Prozent"
+
+#: admin/views/Themes.php:410
+msgid "Form layout"
+msgstr "Formularlayout"
+
+#: admin/views/Themes.php:413
+msgid "One column"
+msgstr "Eine Zeile"
+
+#: admin/views/Themes.php:413
+msgid "Two columns"
+msgstr "Zwei Zeilen"
+
+#: admin/views/Themes.php:418
+msgid "Display days status texts below calendare"
+msgstr "Zeigt den Tagesstatus unter dem Kalender"
+
+#: admin/views/Themes.php:419
+msgid ""
+"Display days status texts below calendar(Available, Booked, Unavailable)"
+msgstr ""
+"Zeigt den Tagesstatus neben dem Kalender (Verfügbar, Gebucht, nicht "
+"verfügbar)"
+
+#: admin/views/Themes.php:426 includes/admin_menu.php:83
+#: includes/admin_menu.php:114 includes/wpdevart_lib.php:672
+#: includes/wpdevart_lib.php:687
+msgid "Available"
+msgstr "Verfügbar"
+
+#: admin/views/Themes.php:442 includes/admin_menu.php:84
+#: includes/admin_menu.php:115 includes/textfortr.php:58
+#: includes/wpdevart_lib.php:673 includes/wpdevart_lib.php:688
+msgid "Booked"
+msgstr "Gebucht"
+
+#: admin/views/Themes.php:457 includes/admin_menu.php:85
+#: includes/admin_menu.php:116 includes/textfortr.php:59
+#: includes/wpdevart_lib.php:674 includes/wpdevart_lib.php:689
+msgid "Unavailable"
+msgstr "Nicht verfügbar"
+
+#: admin/views/Themes.php:473
+msgid "Action after submition"
+msgstr "Aktion nach dem Absenden"
+
+#: admin/views/Themes.php:474
+msgid "Selct the action after users submit the booking form"
+msgstr ""
+"Wählen Sie die Aktion aus, nachdem Benutzer das Buchungsformular gesendet "
+"haben"
+
+#: admin/views/Themes.php:476
+msgid "Stay on Calendar"
+msgstr "Im Kalender bleiben"
+
+#: admin/views/Themes.php:477
+msgid "Redirect visitor to a new page"
+msgstr "Leite den Besucher auf eine neue Seite"
+
+#: admin/views/Themes.php:486
+msgid "Message after submition"
+msgstr "Nachricht nach der Übermittlung"
+
+#: admin/views/Themes.php:500
+msgid "URL"
+msgstr "URL"
+
+#: admin/views/Themes.php:507
+msgid "Messages position"
+msgstr "Nachrichtenposition"
+
+#: admin/views/Themes.php:508
+msgid "success and error messages position"
+msgstr "Position der Erfolgs- und Fehlermeldungen"
+
+#: admin/views/Themes.php:510
+msgid "Top"
+msgstr "Open"
+
+#: admin/views/Themes.php:511
+msgid "Bottom"
+msgstr "Unten"
+
+#: admin/views/Themes.php:537
+msgid "Currency"
+msgstr "Währung"
+
+#: admin/views/Themes.php:538
+msgid "Select the default currency for calendar"
+msgstr "Hier wird die Standardwährung für den Kalender ausgewählt"
+
+#: admin/views/Themes.php:546
+msgid "Currency Position"
+msgstr "Position der Währung"
+
+#: admin/views/Themes.php:547
+msgid "Select the currency position(after or before price)"
+msgstr "Wählen Sie die Währungsposition (nach oder vor dem Preis)"
+
+#: admin/views/Themes.php:558
+msgid "Enable this option if you need to create hour booking calendar"
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie einen Stundenbuchungskalender "
+"erstellen müssen"
+
+#: admin/views/Themes.php:575
+msgid "Choose the type of hours selection in calendar"
+msgstr "Wählen Sie die Art der Stundenauswahl im Kalender"
+
+#: admin/views/Themes.php:585
+msgid "Discount depending on the hours"
+msgstr "Ein Rabatt ist abhängig von den Stunden"
+
+#: admin/views/Themes.php:593
+msgid "Minimum hours count"
+msgstr "Minimale Anzahl an Stunden"
+
+#: admin/views/Themes.php:594
+msgid "1 if empty"
+msgstr "1, wenn leer"
+
+#: admin/views/Themes.php:601
+msgid "Maximm hours count"
+msgstr "Maximale Stundenanzahl"
+
+#: admin/views/Themes.php:602
+msgid "Unlimited if empty"
+msgstr "Unbegrenzt, wenn leer"
+
+#: admin/views/Themes.php:610
+msgid "Display hours availability info when users mouse over on calendar days"
+msgstr ""
+"Zeigt Sie Stundenverfügbarkeitsinformationen an, wenn Benutzer mit der Maus "
+"über Kalendertage fahren"
+
+#: admin/views/Themes.php:618
+msgid ""
+"Add a simple hour field(hh:mm) using \"Add Hour\" button or use our default "
+"hours button \"Add Default\", that will add 24 fields with 1 hour inteval "
+"for all day. Use 24 hour format."
+msgstr ""
+"Fügen Sie ein einfaches Stundenfeld (hh:mm) mit der Schaltfläche \"Stunde "
+"hinzufügen\" hinzu oder verwenden Sie unsere Standard-Stundenschaltfläche "
+"\"Standard hinzufügen\", die 24 Felder mit einem 1-Stunden-Intervall für den "
+"ganzen Tag hinzufügt. Verwenden Sie das 24-Stunden-Format."
+
+#: admin/views/Themes.php:628
+msgid "Show Day Info on Hover"
+msgstr "Tagesinfo bei Hover anzeigen"
+
+#: admin/views/Themes.php:629
+msgid ""
+"Select this option if you need to display days info on hover(only for widget "
+"calendar)"
+msgstr ""
+"Wählen Sie diese Option, wenn Sie Tagesinformationen beim Hover anzeigen "
+"müssen (nur für Widget-Kalender)."
+
+#: admin/views/Themes.php:637
+msgid "Delete previous dates"
+msgstr "Vorherige Termine löschen"
+
+#: admin/views/Themes.php:638
+msgid ""
+"Use this option if you need to clear the information for previous dates on "
+"calendar"
+msgstr ""
+"Verwenden Sie diese Option, wenn Sie die Informationen für frühere Daten im "
+"Kalender löschen müssen"
+
+#: admin/views/Themes.php:645
+msgid "Enable instant approval"
+msgstr "Schalte die sofortige Genehmigung ein"
+
+#: admin/views/Themes.php:646
+msgid ""
+"Select this if you need approve the booking requests instantly, without "
+"moderation"
+msgstr ""
+"Wählen Sie dies aus, wenn Sie die Buchungsanfragen sofort und ohne "
+"Moderation genehmigen müssen"
+
+#: admin/views/Themes.php:652
+msgid "Enable instant approve for success payment"
+msgstr "Aktiviert die sofortige Genehmigung bei Zahlungserfolg"
+
+#: admin/views/Themes.php:653
+msgid ""
+"Select this if you need approve the booking requests after payment success"
+msgstr ""
+"Wählen Sie dies aus, wenn Sie die Buchungsanfragen nach erfolgreicher "
+"Zahlung genehmigen müssen"
+
+#: admin/views/Themes.php:659
+msgid "After how many days mark reservations as read"
+msgstr "Nach wie vielen Tagen werden Reservierungen als gelesen markiert"
+
+#: admin/views/Themes.php:668
+msgid "Styles and Colors"
+msgstr "Stile und Farben"
+
+#: admin/views/Themes.php:675
+msgid "Container Maximum width"
+msgstr "Maximale Breite des Kalenders"
+
+#: admin/views/Themes.php:682
+msgid "Calendar Header font weight"
+msgstr "Schriftgröße der Überschrift des Kalenders"
+
+#: admin/views/Themes.php:690
+msgid "Calendar Header font style"
+msgstr "Stil der Überschrift des Kalenders"
+
+#: admin/views/Themes.php:698
+msgid "Calendar Header padding"
+msgstr "Abstand der Kalenderüberschrift"
+
+#: admin/views/Themes.php:705
+msgid "Next Prev Month font size"
+msgstr "Schriftgröße des nächsten/vorherigen Monat"
+
+#: admin/views/Themes.php:712
+msgid "Current Month font size"
+msgstr "Aktuelle Schriftgröße des Monats"
+
+#: admin/views/Themes.php:719
+msgid "Current Year font size"
+msgstr "Aktuelle Schriftgröße des Jahres"
+
+#: admin/views/Themes.php:726
+msgid "Week Days font weight"
+msgstr "Schriftstärke der Wochentage"
+
+#: admin/views/Themes.php:734
+msgid "Week Days font style"
+msgstr "Schriftstil der Wochentage"
+
+#: admin/views/Themes.php:742
+msgid "Week Days font size"
+msgstr "Schriftgröße der Wochentage"
+
+#: admin/views/Themes.php:749
+msgid "Day Number font weight"
+msgstr "Schriftstärke der Tagesanzahl"
+
+#: admin/views/Themes.php:757
+msgid "Day Number font style"
+msgstr "Schriftstil der Tagesanzahl"
+
+#: admin/views/Themes.php:765
+msgid "Day Number font size"
+msgstr "Schriftgröße der Tagesanzahl"
+
+#: admin/views/Themes.php:772
+msgid "Day Availability font weight"
+msgstr "Schriftstärke der verfügbaren Tage"
+
+#: admin/views/Themes.php:780
+msgid "Day Availability font style"
+msgstr "Schriftstil der verfügbaren Tage"
+
+#: admin/views/Themes.php:788
+msgid "Day Availability font size"
+msgstr "Schriftgröße der verfügbaren Tage"
+
+#: admin/views/Themes.php:795
+msgid "Day Price font weight"
+msgstr "Schriftstärke des Tagespreis"
+
+#: admin/views/Themes.php:803
+msgid "Day Price font style"
+msgstr "Schriftstil des Tagespreis"
+
+#: admin/views/Themes.php:811
+msgid "Day Price font size"
+msgstr "Schriftgröße des Tagespreis"
+
+#: admin/views/Themes.php:818
+msgid "Days height"
+msgstr "Höhe der Tage"
+
+#: admin/views/Themes.php:825
+msgid "Hours width"
+msgstr "Breite der Stunden"
+
+#: admin/views/Themes.php:832
+msgid "Hours height"
+msgstr "Höhe der Stunden"
+
+#: admin/views/Themes.php:839
+msgid "Info font weight"
+msgstr "Schriftstärke der Infos"
+
+#: admin/views/Themes.php:847
+msgid "Info font style"
+msgstr "Schriftstil der Infos"
+
+#: admin/views/Themes.php:855
+msgid "Info font size"
+msgstr "Schriftgröße der Infos"
+
+#: admin/views/Themes.php:862
+msgid "Info Border radius"
+msgstr "Radius der Umrandung der Infos"
+
+#: admin/views/Themes.php:870
+msgid "Form/Extra Title font weight"
+msgstr "Schriftstärke des Formulars/Extra Kachel"
+
+#: admin/views/Themes.php:878
+msgid "Form/Extra Title font style"
+msgstr "Schriftstil des Formulars/Extra Kachel"
+
+#: admin/views/Themes.php:886
+msgid "Form/Extra Title font size"
+msgstr "Schriftgröße des Formulars/Extra Kachel"
+
+#: admin/views/Themes.php:893
+msgid "Form/Extra Labels font weight"
+msgstr "Schriftstärke des Formulars/Extra Beschriftung"
+
+#: admin/views/Themes.php:901
+msgid "Form/Extra Labels font style"
+msgstr "Schriftstil des Formulars/Extra Beschriftung"
+
+#: admin/views/Themes.php:909
+msgid "Form/Extra Labels font size"
+msgstr "Schriftgröße des Formulars/Extra Beschriftung"
+
+#: admin/views/Themes.php:916
+msgid "Form/Extra Fields font weight"
+msgstr "Schriftstärke des Formulars/Extrafeldes"
+
+#: admin/views/Themes.php:924
+msgid "Form/Extra Fields font style"
+msgstr "Schriftstil des Formulars/Extrafeldes"
+
+#: admin/views/Themes.php:932
+msgid "Form/Extra Fields font size"
+msgstr "Schriftgröße des Formulars/Extrafeldes"
+
+#: admin/views/Themes.php:939
+msgid "Form Submit font weight"
+msgstr "Schriftstärke des Absenden-Knopfes"
+
+#: admin/views/Themes.php:947
+msgid "Form Submit font style"
+msgstr "Schriftstil des Absenden-Knopfes"
+
+#: admin/views/Themes.php:955
+msgid "Reservation Info font weight"
+msgstr "Schriftstärke für Reservierungsinfo"
+
+#: admin/views/Themes.php:963
+msgid "Reservation Info font style"
+msgstr "Schriftstil für Reservierungsinfo"
+
+#: admin/views/Themes.php:971
+msgid "Reservation Info font size"
+msgstr "Schriftgröße für Reservierungsinfo"
+
+#: admin/views/Themes.php:978
+msgid "Widget Day Info font weight"
+msgstr "Schriftstärke für Widget-Tagesinfo"
+
+#: admin/views/Themes.php:986
+msgid "Widget Day Info font style"
+msgstr "Schriftstil für Widget-Tagesinfo"
+
+#: admin/views/Themes.php:994
+msgid "Widget Day Info font size"
+msgstr "Schriftgröße für Widget-Tagesinfo"
+
+#: admin/views/Themes.php:1004
+msgid "Load Spinner color"
+msgstr "Farbe für den Ladekreis"
+
+#: admin/views/Themes.php:1011
+msgid "Calendar Header background"
+msgstr "Überschrifthintergrund des Kalenders"
+
+#: admin/views/Themes.php:1018
+msgid "Next Preview Month color"
+msgstr "Farbe für nächsten/vorherigen Monat"
+
+#: admin/views/Themes.php:1025
+msgid "Current Month color"
+msgstr "Farbe für aktuellen Monat"
+
+#: admin/views/Themes.php:1032
+msgid "Current Year color"
+msgstr "Farbe für aktuelles Jahr"
+
+#: admin/views/Themes.php:1039
+msgid "Week Days background"
+msgstr "Hintergrund für Wochentage"
+
+#: admin/views/Themes.php:1046
+msgid "Week Days color"
+msgstr "Farbe für Wochentage"
+
+#: admin/views/Themes.php:1053
+msgid "Calendar background"
+msgstr "Hintergrund des Kalenders"
+
+#: admin/views/Themes.php:1060
+msgid "Calendar Border color"
+msgstr "Umrandungsfarbe des Kalenders"
+
+#: admin/views/Themes.php:1067
+msgid "Day background"
+msgstr "Hintergrund Tag"
+
+#: admin/views/Themes.php:1074
+msgid "Day Number background"
+msgstr "Hintergrund Tagesanzahl"
+
+#: admin/views/Themes.php:1081
+msgid "Day Number color"
+msgstr "Farbe Tagesanzahl"
+
+#: admin/views/Themes.php:1088
+msgid "Day Availability color"
+msgstr "Farbe der verfügbaren Tage"
+
+#: admin/views/Themes.php:1095
+msgid "Day Price color"
+msgstr "Farbe für den Tagespreis"
+
+#: admin/views/Themes.php:1102
+msgid "Available Day background"
+msgstr "Hintergrund der verfügbaren Tage"
+
+#: admin/views/Themes.php:1109
+msgid "Available Day Number background"
+msgstr "Hintergrund der verfügbaren Tagesanzahl"
+
+#: admin/views/Themes.php:1116
+msgid "Available Day Number color"
+msgstr "Farbe für verfügbare Tagesanzahl"
+
+#: admin/views/Themes.php:1123
+msgid "Selected Day background"
+msgstr "Hintergrund für ausgewählte Tage"
+
+#: admin/views/Themes.php:1130
+msgid "Selected Day Number background"
+msgstr "Hintergrund für ausgewählte Tagesanzahl"
+
+#: admin/views/Themes.php:1137
+msgid "Selected Day Number color"
+msgstr "Farbe für ausgewählte Tagesanzahl"
+
+#: admin/views/Themes.php:1144
+msgid "Selected Day Availability color"
+msgstr "Farbe für ausgewählte Tage"
+
+#: admin/views/Themes.php:1151
+msgid "Selected Day Price color"
+msgstr "Farbe für Tagespreis"
+
+#: admin/views/Themes.php:1158
+msgid "Unavailable Day background"
+msgstr "Hintergrund für nicht verfügbare Tage"
+
+#: admin/views/Themes.php:1165
+msgid "Unavailable Day Number background"
+msgstr "Hintergrund für nicht verfügbare Tagesanzahl"
+
+#: admin/views/Themes.php:1172
+msgid "Unavailable Day Number color"
+msgstr "Farbe für nicht verfügbare Tagesanzahl"
+
+#: admin/views/Themes.php:1179
+msgid "Unavailable Day Availability color"
+msgstr "Farbe für nicht verfügbare Tage"
+
+#: admin/views/Themes.php:1186
+msgid "Booked Day background"
+msgstr "Hintergrund für gebuchte Tage"
+
+#: admin/views/Themes.php:1193
+msgid "Booked Day Number background"
+msgstr "Hintergrund für gebuchte Tagesanzahl"
+
+#: admin/views/Themes.php:1200
+msgid "Booked Day Number color"
+msgstr "Farbe für gebuchte Tagesanzahl"
+
+#: admin/views/Themes.php:1207
+msgid "Booked Day Availability color"
+msgstr "Farbe für verfügbare Tage"
+
+#: admin/views/Themes.php:1214
+msgid "Info Icon color"
+msgstr "Farbe für Info-Icon"
+
+#: admin/views/Themes.php:1221
+msgid "Info background"
+msgstr "Hintergrund für Info"
+
+#: admin/views/Themes.php:1228
+msgid "Info color"
+msgstr "Farbe für Info"
+
+#: admin/views/Themes.php:1236
+msgid "Form background"
+msgstr "Hintergrund des Formulars"
+
+#: admin/views/Themes.php:1243
+msgid "Form border color"
+msgstr "Umrandung des Formulars"
+
+#: admin/views/Themes.php:1250
+msgid "Form/Extra Title color"
+msgstr "Farbe des Formulars/Extra Kachel"
+
+#: admin/views/Themes.php:1257
+msgid "Form/Extra Title background"
+msgstr "Hintergrund des Formulars/Extra Kachel"
+
+#: admin/views/Themes.php:1264
+msgid "Form/Extra Labels color"
+msgstr "Farbe des Formulars/Extra Beschriftung"
+
+#: admin/views/Themes.php:1271
+msgid "Form/Extra Fields color"
+msgstr "Farbe des Formulars/Extrafeldes"
+
+#: admin/views/Themes.php:1278
+msgid "Reservation Info color"
+msgstr "Farbe für Reservierungsinfo"
+
+#: admin/views/Themes.php:1285
+msgid "Total Price background"
+msgstr "Hintergrund Gesamtpreis"
+
+#: admin/views/Themes.php:1292
+msgid "Total Price color"
+msgstr "Farbe Gesamtpreis"
+
+#: admin/views/Themes.php:1299
+msgid "Required Star color"
+msgstr "Farbe für wird benötigt - Stern (*)"
+
+#: admin/views/Themes.php:1306
+msgid "Submit Button background"
+msgstr "Hintergrund Absenden-Knopf"
+
+#: admin/views/Themes.php:1313
+msgid "Submit Button color"
+msgstr "Farbe Absenden-Knopf"
+
+#: admin/views/Themes.php:1320
+msgid "Error Info background"
+msgstr "Hintergrund für Fehlermeldungen"
+
+#: admin/views/Themes.php:1327
+msgid "Error Info color"
+msgstr "Farbe für Fehlermeldungen"
+
+#: admin/views/Themes.php:1334
+msgid "Error Info Border color"
+msgstr "Farbe der Umrandung für Fehlermeldungen"
+
+#: admin/views/Themes.php:1341
+msgid "Error Info Close background"
+msgstr "Hintergrund für Schließen-Knopf der Fehlermeldungen"
+
+#: admin/views/Themes.php:1348
+msgid "Error Info Close color"
+msgstr "Farbe für Schließen-Knopf der Fehlermeldungen"
+
+#: admin/views/Themes.php:1355
+msgid "Successfully Info background"
+msgstr "Hintergrund für Erfolgsmeldung"
+
+#: admin/views/Themes.php:1362
+msgid "Successfully Info color"
+msgstr "Farbe für Erfolgsmeldung"
+
+#: admin/views/Themes.php:1369
+msgid "Successfully Info Border color"
+msgstr "Farbe der Umrandung der Erfolgsmeldung"
+
+#: admin/views/Themes.php:1376
+msgid "Successfully Info Close background"
+msgstr "Hintergrund für Schließen-Knopf der Erfolgsmeldung"
+
+#: admin/views/Themes.php:1383
+msgid "Successfully Info Close color"
+msgstr "Farbe für Schließen-Knopf der Erfolgsmeldung"
+
+#: admin/views/Themes.php:1390
+msgid "Widget Day Info background"
+msgstr "Hintergrund für Widget-Tagesinfo"
+
+#: admin/views/Themes.php:1397
+msgid "Widget Day Info color"
+msgstr "Farbe für Widget-Tagesinfo"
+
+#: admin/views/Themes.php:1404
+msgid "Widget Day Info border color"
+msgstr "Farbe der Umrandung für Widget-Tagesinfo"
+
+#: admin/views/Themes.php:1413
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: admin/views/Themes.php:1418
+msgid "Use PHPMailer"
+msgstr "Benutze PHPMailer"
+
+#: admin/views/Themes.php:1425
+msgid "Mail background color"
+msgstr "Farbe des Hintergrundes der E-Mail"
+
+#: admin/views/Themes.php:1432
+msgid "Mail content background color"
+msgstr "Farbe des Inhalte-Hintergrundes der E-Mail"
+
+#: admin/views/Themes.php:1439
+msgid "Mail font color"
+msgstr "Schriftfarbe der E-Mail"
+
+#: admin/views/Themes.php:1446
+msgid "Mail header image"
+msgstr "Überschriftbild der E-Mail"
+
+#: admin/views/Themes.php:1453
+msgid "Mail footer text"
+msgstr "E-Mail-Fußzeile"
+
+#: admin/views/Themes.php:1460
+msgid "Mail footer text font color"
+msgstr "Schriftfarbe der E-Mail-Fußzeile"
+
+#: admin/views/Themes.php:1469
+msgid "You can use these shortcodes in content of admin templates"
+msgstr "Sie können diese Shortcodes als Inhalt von Admin-Vorlagen verwenden"
+
+#: admin/views/Themes.php:1476
+msgid "You can use this shortcodes in Email From: field"
+msgstr "Sie können diese Shortcodes im E-Mail-Feld VON: (From:) verwenden"
+
+#: admin/views/Themes.php:1483 admin/views/Themes.php:1662
+msgid "Notify on book request"
+msgstr "Benachrichtigung bei einer Buchungsanfrage"
+
+#: admin/views/Themes.php:1491 admin/views/Themes.php:1550
+#: admin/views/Themes.php:1610
+msgid "To:"
+msgstr "An:"
+
+#: admin/views/Themes.php:1500 admin/views/Themes.php:1559
+#: admin/views/Themes.php:1619 admin/views/Themes.php:1670
+#: admin/views/Themes.php:1721 admin/views/Themes.php:1772
+#: admin/views/Themes.php:1823 admin/views/Themes.php:1876
+#: admin/views/Themes.php:1924
+msgid "Email From:"
+msgstr "E-Mail von:"
+
+#: admin/views/Themes.php:1508 admin/views/Themes.php:1567
+#: admin/views/Themes.php:1627 admin/views/Themes.php:1679
+#: admin/views/Themes.php:1730 admin/views/Themes.php:1781
+#: admin/views/Themes.php:1832 admin/views/Themes.php:1886
+#: admin/views/Themes.php:1934
+msgid "From Name:"
+msgstr "Von Name:"
+
+#: admin/views/Themes.php:1516 admin/views/Themes.php:1575
+#: admin/views/Themes.php:1635 admin/views/Themes.php:1687
+#: admin/views/Themes.php:1738 admin/views/Themes.php:1789
+#: admin/views/Themes.php:1840 admin/views/Themes.php:1895
+#: admin/views/Themes.php:1943
+msgid "Subject:"
+msgstr "Betreff:"
+
+#: admin/views/Themes.php:1524 admin/views/Themes.php:1583
+#: admin/views/Themes.php:1643 admin/views/Themes.php:1695
+#: admin/views/Themes.php:1746 admin/views/Themes.php:1797
+#: admin/views/Themes.php:1848 admin/views/Themes.php:1904
+#: admin/views/Themes.php:1952
+msgid "Content:"
+msgstr "Inhalt:"
+
+#: admin/views/Themes.php:1533 admin/views/Themes.php:1592
+#: admin/views/Themes.php:1704 admin/views/Themes.php:1755
+#: admin/views/Themes.php:1806 admin/views/Themes.php:1857
+msgid "Enable notification when email doesn't send"
+msgstr ""
+"Schalte die Benachrichtigung ein, falls eine E-Mail nicht versandt werden "
+"konnte"
+
+#: admin/views/Themes.php:1542
+msgid "Notify on approved book request"
+msgstr "Benachrichtigung bei genehmigter Buchanfrage"
+
+#: admin/views/Themes.php:1602 admin/views/Themes.php:1867
+msgid "PayPal Notification"
+msgstr "PayPal-Benachrichtigung"
+
+#: admin/views/Themes.php:1655
+msgid "You can use these shortcodes in content of user templates"
+msgstr "Sie können diese Shortcodes im Inhalt von Benutzervorlagen verwenden"
+
+#: admin/views/Themes.php:1713
+msgid "Notify when reservation is approved"
+msgstr "Benachrichtigen, wenn die Reservierung genehmigt wurde"
+
+#: admin/views/Themes.php:1764
+msgid "Notify when reservation is canceled"
+msgstr "Benachrichtigen, wenn die Reservierung abgelehnt wurde"
+
+#: admin/views/Themes.php:1815
+msgid "Notify when reservation is deleted (rejected)"
+msgstr "Benachrichtigen, wenn die Reservierung gelöscht (abgewiesen) wurde"
+
+#: admin/views/Themes.php:1915
+msgid "PayPal Notification - Payment Failed"
+msgstr "PayPal-Benachrichtigung - Zahlung fehlgeschlagen"
+
+#: admin/views/Themes.php:1965
+msgid "Default Texts"
+msgstr "Standardtexte"
+
+#: admin/views/Themes.php:1970
+msgid "Use mo"
+msgstr "Benutze .mo Dateien"
+
+#: admin/views/Themes.php:1979
+msgid "Text for available"
+msgstr "Text für verfügbar"
+
+#: admin/views/Themes.php:1986
+msgid "Text for booked"
+msgstr "Text für gebucht"
+
+#: admin/views/Themes.php:1993
+msgid "Text for unavailable"
+msgstr "Text für nicht verfügbar"
+
+#: admin/views/Themes.php:2000
+msgid "Text for check in"
+msgstr "Text für Check-In"
+
+#: admin/views/Themes.php:2007
+msgid "Text for check out"
+msgstr "Text für Check-Out"
+
+#: admin/views/Themes.php:2014
+msgid "Text for number of nights"
+msgstr "Text für Anzahl der Nächte"
+
+#: admin/views/Themes.php:2021
+msgid "Text for date"
+msgstr "Text für Datum"
+
+#: admin/views/Themes.php:2028
+msgid "Text for No hour available."
+msgstr "Text für Keine Stunde verfügbar."
+
+#: admin/views/Themes.php:2035
+msgid "Text for start hour"
+msgstr "Text für Stundenbeginn"
+
+#: admin/views/Themes.php:2042
+msgid "Text for end hour"
+msgstr "Text für Stundenende"
+
+#: admin/views/Themes.php:2049
+msgid "Text for hour"
+msgstr "Text für Stunde"
+
+#: admin/views/Themes.php:2056
+msgid "Text for item count"
+msgstr "Text für Stückzahl"
+
+#: admin/views/Themes.php:2063
+msgid "Text for terms & conditions"
+msgstr "Text für AGB"
+
+#: admin/views/Themes.php:2070
+msgid "Text for reservation"
+msgstr "Text für Reservierung"
+
+#: admin/views/Themes.php:2077
+msgid "Text for select days"
+msgstr "Text für Auswahl von Tagen"
+
+#: admin/views/Themes.php:2084
+msgid "Text for price"
+msgstr "Text für Preis"
+
+#: admin/views/Themes.php:2091
+msgid "Text for total"
+msgstr "Text für Gesamtpreis"
+
+#: admin/views/Themes.php:2098
+msgid "Text for submit button"
+msgstr "Text für Absenden-Knopf"
+
+#: admin/views/Themes.php:2105
+msgid "Text for request successfully sent"
+msgstr "Text für Anfrage erfolgreich gesendet"
+
+#: admin/views/Themes.php:2112
+msgid "Text for request successfully received"
+msgstr "Text für Anfrage erfolgreich erhalten"
+
+#: admin/views/Themes.php:2119
+msgid "Text for no services available(single days)"
+msgstr "Text für nicht verfügbare Leistungen (einzelne Tage)"
+
+#: admin/views/Themes.php:2126
+msgid "Text for no services available(multiple days)"
+msgstr "Text für nicht verfügbare Leistungen (mehrere Tage)"
+
+#: admin/views/Themes.php:2133
+msgid "Text for one night error"
+msgstr "Text für Fehler bei einer Nacht"
+
+#: admin/views/Themes.php:2140
+msgid "Minumum booking day error message"
+msgstr "Fehlermeldung Mindestbuchungsanzahl pro Tag"
+
+#: admin/views/Themes.php:2141 includes/textfortr.php:97
+msgid "You must select at least [min] days"
+msgstr "Es müssen mindestens [min] Tage ausgewählt werden"
+
+#: admin/views/Themes.php:2147
+msgid "Maximum booking days error message"
+msgstr "Fehlermeldung maximale Buchungsanzahl in Tagen"
+
+#: admin/views/Themes.php:2148
+msgid "You must select  less than [max] days"
+msgstr "Es dürfen nur weniger als [max] Tage ausgewählt werden"
+
+#: admin/views/Themes.php:2154
+msgid "Minumum booking hour error message"
+msgstr "Fehlermeldung Mindestbuchungsanzahl pro Stunde"
+
+#: admin/views/Themes.php:2155 includes/textfortr.php:99
+msgid "You must select at least [min] hour"
+msgstr "Es müssen mindestens [min] Stunden ausgewählt werden"
+
+#: admin/views/Themes.php:2161
+msgid "Maximum booking hours error message"
+msgstr "Fehlermeldung für maximale Buchungsstunden"
+
+#: admin/views/Themes.php:2162
+msgid "You must select  less than [max] hours"
+msgstr "Es dürfen nur weniger als [max] Stunden ausgewählt werden"
+
+#: admin/views/Themes.php:2168
+msgid "Text if recaptcha wasn't verified"
+msgstr "Text, wenn ReCaptcha nicht verifiziert werden konnte"
+
+#: admin/views/Themes.php:2169
+msgid "Wasn't verified by recaptcha, try again"
+msgstr ""
+"Es konnte nicht mittels ReCaptcha verifiziert werden, bitte erneut versuchen"
+
+#: admin/views/Themes.php:2175
+msgid "Text for pay in cash"
+msgstr "Text für Barzahlung"
+
+#: admin/views/Themes.php:2182
+msgid "Text for pay with PayPal"
+msgstr "Text für Zahlung mit PayPal"
+
+#: admin/views/Themes.php:2189
+msgid "Text for same as billing info"
+msgstr "Text für Gleich wie Rechungsinfo"
+
+#: admin/views/Themes.php:2196
+msgid "To administrator after book request"
+msgstr "Zum Administrator nach der Buchungsanfrage"
+
+#: admin/views/Themes.php:2203
+msgid "To administrator after book request approved"
+msgstr "Zum Administrator nachdem die Buchungsanfrage bestätigt wurde"
+
+#: admin/views/Themes.php:2210
+msgid "To user after book request"
+msgstr "Zum Benutzer nach der Buchungsanfrage"
+
+#: admin/views/Themes.php:2217
+msgid "To user after book request approved"
+msgstr "Zum Benutzer nachdem die Buchungsanfrage bestätigt wurde"
+
+#: admin/views/Themes.php:2224
+msgid "To user after book request canceled"
+msgstr "Zum Benutzer nachdem die Buchungsanfrage abgebrochen wurde"
+
+#: admin/views/Themes.php:2231
+msgid "To user after book request deleted"
+msgstr "Zum Benutzer nachdem die Buchungsanfrage gelöscht wurde"
+
+#: admin/views/Themes.php:2240
+msgid "Payments"
+msgstr "Zahlungen"
+
+#: admin/views/Themes.php:2246
+msgid "Show booking details in payment form"
+msgstr "Buchungsdetails im Zahlungsformular anzeigen"
+
+#: admin/views/Themes.php:2253
+msgid "Enable Billing address"
+msgstr "Schalte Rechnungsadresse ein"
+
+#: admin/views/Themes.php:2261
+msgid "Select form for billing address"
+msgstr "Wähle ein Formular für die Rechnungsadresse"
+
+#: admin/views/Themes.php:2269
+msgid "Enable Shipping address"
+msgstr "Aktiviere Versandadresse"
+
+#: admin/views/Themes.php:2277
+msgid "Select form for shipping address"
+msgstr "Wählen Sie das Formular für die Lieferadresse aus"
+
+#: admin/views/Themes.php:2285
+msgid "Redirect after payment"
+msgstr "Weiterleitung nach Zahlung"
+
+#: admin/views/Themes.php:2299
+msgid "Tax"
+msgstr "Steuer"
+
+#: admin/views/Themes.php:2308
+msgid "Enable Pay in Cash"
+msgstr "Aktiviere Barzahlung"
+
+#: admin/views/Themes.php:2327
+msgid "Enable PayPal"
+msgstr "Aktiviere PayPal"
+
+#: admin/views/Themes.php:2335
+msgid "Redirect to PayPal after submitting the Booking form"
+msgstr "Weiterleitung zu PayPal nach Absenden des Buchungsformulars"
+
+#: admin/views/Themes.php:2344
+msgid "Payment mode"
+msgstr "Zahlungsmethode"
+
+#: admin/views/Themes.php:2360
+msgid "PayPal email"
+msgstr "PayPal Email-Adresse"
+
+#: admin/views/Themes.php:2367
+msgid "PayPal button image"
+msgstr "PayPal-Knopfbild"
+
+#: admin/views/Themes.php:2408
+msgid "Edit Theme"
+msgstr "Theme bearbeiten"
+
+#: admin/views/Themes.php:2417
+msgid "Theme Name"
+msgstr "Theme Name"
+
+#: admin/views/UserPermissions.php:24
+msgid "Can edit other users calendars"
+msgstr "Darf die Kalender anderer Benutzer bearbeiten"
+
+#: admin/views/UserPermissions.php:32
+msgid "Reservations"
+msgstr "Reservierungen"
+
+#: admin/views/UserPermissions.php:50
+msgid "Can edit other users forms"
+msgstr "Darf die Formulare anderer Benutzer bearbeiten"
+
+#: admin/views/UserPermissions.php:67
+msgid "Can edit other users extras"
+msgstr "Darf die Extras anderer Benutzer bearbeiten"
+
+#: admin/views/UserPermissions.php:84
+msgid "Can edit other users themes"
+msgstr "Darf die Themes anderer Benutzer bearbeiten"
+
+#: admin/views/UserPermissions.php:92
+msgid "Global Settings"
+msgstr "Globale Einstellungen"
+
+#: admin/views/UserPermissions.php:104
+msgid "User permissions for booking calendar pages"
+msgstr "Benutzerberechtigungen für die Buchung von Kalenderseiten"
+
+#: admin/views/UserPermissions.php:131
+msgid "Administrator"
+msgstr "Administrator"
+
+#: admin/views/UserPermissions.php:132
+msgid "Editor"
+msgstr "Editor"
+
+#: admin/views/UserPermissions.php:133
+msgid "Author"
+msgstr "Autor"
+
+#: admin/views/UserPermissions.php:134
+msgid "Contributor"
+msgstr "Mitwirkender"
+
+#: admin/views/UserPermissions.php:135
+msgid "Subscriber"
+msgstr "Teilnehmer"
+
+#: booking_calendar.php:134 includes/admin_menu.php:78
+#: includes/admin_menu.php:95
+msgid "is required."
+msgstr "wird benötigt."
+
+#: booking_calendar.php:135
+msgid "do not match."
+msgstr "passt nicht."
+
+#: booking_calendar.php:136
+msgid " The file size is too large!"
+msgstr " Die Dateigröße ist zu groß!"
+
+#: booking_calendar.php:137
+msgid " The file type not allowed!"
+msgstr " Dieser Dateityp ist nicht erlaubt!"
+
+#: booking_calendar.php:138 includes/admin_menu.php:79
+#: includes/admin_menu.php:96
+msgid "Enter the valid email address."
+msgstr "Bitte eine korrekte A-Mailadresse eingeben."
+
+#: booking_calendar.php:139 includes/admin_menu.php:88
+#: includes/admin_menu.php:97 includes/textfortr.php:88
+msgid "Date"
+msgstr "Datum"
+
+#. Plugin Name of the plugin/theme
+#: booking_calendar.php:201 booking_calendar.php:380 booking_calendar.php:421
+msgid "Booking Calendar WpDevArt"
+msgstr "Buchungskalender WpDevArt"
+
+#: booking_calendar.php:213
+msgid "Reservation Day"
+msgstr "Reservierungstag"
+
+#: booking_calendar.php:214
+msgid "Reservation Check In"
+msgstr "Reservierung Check-In"
+
+#: booking_calendar.php:215
+msgid "Reservation Check Out"
+msgstr "Reservierung Check-Out"
+
+#: booking_calendar.php:216
+msgid "Start Hour"
+msgstr "Stundenbeginn"
+
+#: booking_calendar.php:217
+msgid "End Hour"
+msgstr "Stundenende"
+
+#: booking_calendar.php:219
+msgid "Reservation Form Information"
+msgstr "Reservierungsformularinformation"
+
+#: booking_calendar.php:220
+msgid "Billing Form Information"
+msgstr "Zahlungsformularinformation"
+
+#: booking_calendar.php:221
+msgid "Shipping Form Information"
+msgstr "Versandformularinformation"
+
+#: booking_calendar.php:222
+msgid "Payment Price"
+msgstr "Zahlungspreis"
+
+#: booking_calendar.php:223
+msgid "Ip"
+msgstr "IP"
+
+#: booking_calendar.php:224
+msgid "Payment Address"
+msgstr "Zahlungsadresse"
+
+#: booking_calendar.php:225
+msgid "Payment Info"
+msgstr "Zahlungsinformationen"
+
+#: booking_calendar.php:226
+msgid "Payment Date"
+msgstr "Zahlungsdatum"
+
+#: booking_calendar.php:227
+msgid "Reservation Created Date"
+msgstr "Erstellungsdatum der Reservierung"
+
+#: booking_calendar.php:292
+msgid "Booking Calendar Reservation Data"
+msgstr "Buchungskalender Reservierungsdaten"
+
+#: booking_calendar.php:301
+msgid "Notify on book request to"
+msgstr "Benachrichtigung bei Buchungsanfrage an"
+
+#: booking_calendar.php:302
+msgid "Notify on book request from"
+msgstr "Benachrichtigung bei Buchungsanfrage von"
+
+#: booking_calendar.php:303
+msgid "Notify on book request fromname"
+msgstr "Benachrichtigung bei Buchungsanfrage VON"
+
+#: booking_calendar.php:304
+msgid "Notify on book request subject"
+msgstr "Benachrichtigung bei Buchungsanfrage BETREFF"
+
+#: booking_calendar.php:305
+msgid "Notify on book request content"
+msgstr "Benachrichtigung bei Buchungsanfrage INHALT"
+
+#: booking_calendar.php:306
+msgid "Notify on approved request to"
+msgstr "Benachrichtigung bei genehmigter Anfrage AN"
+
+#: booking_calendar.php:307
+msgid "Notify on approved request from"
+msgstr "Benachrichtigung bei genehmigter Anfrage VON"
+
+#: booking_calendar.php:308
+msgid "Notify on approved request fromname"
+msgstr "Benachrichtigung bei genehmigter Anfrage VONNAME"
+
+#: booking_calendar.php:309
+msgid "Notify on approved request subject"
+msgstr "Benachrichtigung bei genehmigter Anfrage BETREFF"
+
+#: booking_calendar.php:310
+msgid "Notify on approved request content"
+msgstr "Benachrichtigung bei genehmigter Anfrage INHALT"
+
+#: booking_calendar.php:311
+msgid "Notify on paypal request to"
+msgstr "Benachrichtigung bei PayPal-Anfrage AN"
+
+#: booking_calendar.php:312
+msgid "Notify on paypal request from"
+msgstr "Benachrichtigung bei PayPal-Anfrage VON"
+
+#: booking_calendar.php:313
+msgid "Notify on paypal request fromname"
+msgstr "Benachrichtigung bei PayPal-Anfrage VONNAME"
+
+#: booking_calendar.php:314
+msgid "Notify on paypal request subject"
+msgstr "Benachrichtigung bei PayPal-Anfrage BETREFF"
+
+#: booking_calendar.php:315
+msgid "Notify on paypal request content"
+msgstr "Benachrichtigung bei PayPal-Anfrage INHALT"
+
+#: booking_calendar.php:316
+msgid "Notify user on book request from"
+msgstr "Benachrichtigung an den Benutzer über die Buchungsanfrage VON"
+
+#: booking_calendar.php:317
+msgid "Notify user on book request fromname"
+msgstr "Benachrichtigung an den Benutzer über die Buchungsanfrage VONNAME"
+
+#: booking_calendar.php:318
+msgid "Notify user on book request subject"
+msgstr "Benachrichtigung an den Benutzer über die Buchungsanfrage BETREFF"
+
+#: booking_calendar.php:319
+msgid "Notify user on book request content"
+msgstr "Benachrichtigung an den Benutzer über die Buchungsanfrage INHALT"
+
+#: booking_calendar.php:320
+msgid "Notify user on approved request from"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine bestätigte Buchungsanfrage VON"
+
+#: booking_calendar.php:321
+msgid "Notify user on approved request fromname"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine bestätigte Buchungsanfrage VONNAME"
+
+#: booking_calendar.php:322
+msgid "Notify user on approved request subject"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine bestätigte Buchungsanfrage BETREFF"
+
+#: booking_calendar.php:323
+msgid "Notify user on approved request content"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine bestätigte Buchungsanfrage INHALT"
+
+#: booking_calendar.php:324
+msgid "Notify user on canceled request from"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine abgewiesene Buchungsanfrage VON"
+
+#: booking_calendar.php:325
+msgid "Notify user on canceled request fromname"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine abgewiesene Buchungsanfrage "
+"VONNAME"
+
+#: booking_calendar.php:326
+msgid "Notify user on canceled request subject"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine abgewiesene Buchungsanfrage "
+"BETREFF"
+
+#: booking_calendar.php:327
+msgid "Notify user on canceled request content"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine abgewiesene Buchungsanfrage INHALT"
+
+#: booking_calendar.php:328
+msgid "Notify user on deleted request from"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine gelöschte Buchungsanfrage VON"
+
+#: booking_calendar.php:329
+msgid "Notify user on deleted request fromname"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine gelöschte Buchungsanfrage VONNAME"
+
+#: booking_calendar.php:330
+msgid "Notify user on deleted request subject"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine gelöschte Buchungsanfrage BETREFF"
+
+#: booking_calendar.php:331
+msgid "Notify user on deleted request content"
+msgstr ""
+"Benachrichtigung an den Benutzer über eine gelöschte Buchungsanfrage INHALT"
+
+#: booking_calendar.php:332
+msgid "Notify user on paypal request from"
+msgstr "Benachrichtigung an den Benutzer bei einer PayPal-Anfrage VON"
+
+#: booking_calendar.php:333
+msgid "Notify user on paypal request fromname"
+msgstr "Benachrichtigung an den Benutzer bei einer PayPal-Anfrage VONNAME"
+
+#: booking_calendar.php:334
+msgid "Notify user on paypal request subject"
+msgstr "Benachrichtigung an den Benutzer bei einer PayPal-Anfrage BETREFF"
+
+#: booking_calendar.php:335
+msgid "Notify user on paypal request content"
+msgstr "Benachrichtigung an den Benutzer bei einer PayPal-Anfrage INHALT"
+
+#: booking_calendar.php:336
+msgid "Notify user on paypal failed request from"
+msgstr ""
+"Benachrichtigung an den Benutzer bei einer fehlgeschlagenen PayPal-Anfrage "
+"VON"
+
+#: booking_calendar.php:337
+msgid "Notify user on paypal failed request fromname"
+msgstr ""
+"Benachrichtigung an den Benutzer bei einer fehlgeschlagenen PayPal-Anfrage "
+"VONNAME"
+
+#: booking_calendar.php:338
+msgid "Notify user on paypal failed request subject"
+msgstr ""
+"Benachrichtigung an den Benutzer bei einer fehlgeschlagenen PayPal-Anfrage "
+"BETREFF"
+
+#: booking_calendar.php:339
+msgid "Notify user on paypal failed request content"
+msgstr ""
+"Benachrichtigung an den Benutzer bei einer fehlgeschlagenen PayPal-Anfrage "
+"INHALT"
+
+#: booking_calendar.php:365
+msgid "Booking Calendar Themes Data"
+msgstr "Buchungskalender Themendaten"
+
+#: booking_calendar.php:423
+msgid ""
+"Booking Calendar WpDevArt(free and premium versions) has the opportunity for "
+"submitting forms and extras. When users submit forms or extras, they can "
+"also provide personal information, such as name, email, addresses, phone "
+"number and so on. All this data will be saved in WordPress database, so you "
+"need to receive user agreement when they submit booking forms(or extras). "
+"Also, you need to get the user agreement when you delete or export their "
+"data upon their request. In accordance with GDPR, you need to be sure that "
+"all information is protected and the other services that you are using also "
+"observe data protection. In this case, you have liability, so check other "
+"services privacy policy as well and tell them to follow to the GDPR."
+msgstr ""
+"Buchungskalender WpDevArt (kostenlose und Premium-Version) bietet die "
+"Möglichkeit, Formulare und Extras zu übermitteln. Wenn Benutzer Formulare "
+"oder Extras übermitteln, können sie auch persönliche Informationen wie Name, "
+"E-Mailadressen, Adressen, Telefonnummer usw. angeben. Alle diese Daten "
+"werden in der WordPress-Datenbank gespeichert, daher müssen Sie (die Nutzer) "
+"die Benutzervereinbarung erhalten, wenn sie Buchungsformulare (oder Extras) "
+"einreichen. Außerdem müssen Sie eine Benutzervereinbarung einholen, wenn Sie "
+"ihre Daten auf ihre Anfrage hin löschen oder exportieren. Gemäß DSGVO müssen "
+"Sie sicher sein, dass alle Informationen geschützt sind und auch die anderen "
+"Dienste, die Sie nutzen, den Datenschutz beachten. In diesem Fall sind Sie "
+"haftbar, überprüfen Sie also auch die Datenschutzrichtlinien anderer Dienste "
+"und weisen Sie sie an, sich an die DSGVO zu halten."
+
+#: booking_calendar.php:582 booking_calendar.php:587
+msgid "New "
+msgstr "Neu "
+
+#: booking_calendar.php:596
+msgid "New Extra"
+msgstr "Neues Extra"
+
+#: includes/admin_menu.php:82 includes/admin_menu.php:113
+#: includes/wpdevart_lib.php:670 includes/wpdevart_lib.php:685
+msgid "Marked Price"
+msgstr "Gekennzeichneter Preis"
+
+#: includes/admin_menu.php:86 includes/admin_menu.php:117
+#: includes/wpdevart_lib.php:676 includes/wpdevart_lib.php:691
+msgid "Number Availabile"
+msgstr "Verfügbare Anzahl"
+
+#: includes/admin_menu.php:87 includes/admin_menu.php:118
+#: includes/wpdevart_lib.php:677 includes/wpdevart_lib.php:692
+msgid "Hour Information"
+msgstr "Stundeninformation"
+
+#: includes/admin_menu.php:257
+msgid "The following Database Tables successfully deleted:"
+msgstr "Die folgenden Datenbanktabellen wurden erfolgreich gelöscht:"
+
+#: includes/admin_menu.php:267
+msgid "Uninstall Booking Calendar"
+msgstr "Buchungskalender Deinstallieren"
+
+#: includes/admin_menu.php:268
+msgid "Click Here"
+msgstr "Hier klicken"
+
+#: includes/admin_menu.php:268
+msgid " To Finish the Uninstallation"
+msgstr " Um die Deinstallation abzuschließen"
+
+#: includes/admin_menu.php:279
+msgid "Uninstall Booking calendar"
+msgstr "Buchungskalender Deinstallieren"
+
+#: includes/admin_menu.php:281
+msgid ""
+"Deactivating Booking calendar plugin does not remove any data that may have "
+"been created. To completely remove this plugin, you can uninstall it here."
+msgstr ""
+"Das Deaktivieren des Buchungskalender-Plugins entfernt keine Daten, die "
+"möglicherweise erstellt wurden. Um dieses Plugin vollständig zu entfernen, "
+"können Sie es hier deinstallieren."
+
+#: includes/admin_menu.php:282
+msgid "WARNING:"
+msgstr "WARNUNG:"
+
+#: includes/admin_menu.php:282
+msgid ""
+"Once uninstalled, this can't be undone. You should use a Database Backup "
+"plugin of WordPress to back up all the data first."
+msgstr ""
+"Nach der Deinstallation kann dies nicht rückgängig gemacht werden. Sie "
+"sollten zuerst ein Database Backup-Plugin von WordPress verwenden, um alle "
+"Daten zu sichern."
+
+#: includes/admin_menu.php:283
+msgid "The following Database Tables will be deleted:"
+msgstr "Die folgenden Datenbanktabellen werden gelöscht:"
+
+#: includes/admin_menu.php:304
+msgid "Do you really want to uninstall Booking Calendar?"
+msgstr "Möchten Sie den Buchungskalender wirklich deinstallieren?"
+
+#: includes/admin_menu.php:307
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/booking_class.php:1206
+msgid "No options"
+msgstr "Keine Optionen"
+
+#: includes/main_class.php:612
+msgid "Reservation ID"
+msgstr "Reservierungs-ID"
+
+#: includes/main_class.php:613
+msgid "Reservation date"
+msgstr "Reservierungs-Datum"
+
+#: includes/main_class.php:618 includes/textfortr.php:70
+msgid "Total"
+msgstr "Gesamt"
+
+#: includes/textfortr.php:16
+msgid "Jan"
+msgstr "Jan"
+
+#: includes/textfortr.php:17
+msgid "Feb"
+msgstr "Feb"
+
+#: includes/textfortr.php:18
+msgid "Mar"
+msgstr "Mär"
+
+#: includes/textfortr.php:19
+msgid "Apr"
+msgstr "Apr"
+
+#: includes/textfortr.php:21
+msgid "Jun"
+msgstr "Jun"
+
+#: includes/textfortr.php:22
+msgid "Jul"
+msgstr "Jul"
+
+#: includes/textfortr.php:23
+msgid "Aug"
+msgstr "Aug"
+
+#: includes/textfortr.php:24
+msgid "Sep"
+msgstr "Sep"
+
+#: includes/textfortr.php:25
+msgid "Oct"
+msgstr "Okt"
+
+#: includes/textfortr.php:26
+msgid "Nov"
+msgstr "Nov"
+
+#: includes/textfortr.php:27
+msgid "Dec"
+msgstr "Dez"
+
+#: includes/textfortr.php:40
+msgid "Mon"
+msgstr "Mon"
+
+#: includes/textfortr.php:41
+msgid "Tue"
+msgstr "Die"
+
+#: includes/textfortr.php:42
+msgid "Wed"
+msgstr "Mit"
+
+#: includes/textfortr.php:43
+msgid "Thu"
+msgstr "Don"
+
+#: includes/textfortr.php:44
+msgid "Fri"
+msgstr "Fre"
+
+#: includes/textfortr.php:45
+msgid "Sat"
+msgstr "Sam"
+
+#: includes/textfortr.php:49
+msgid "Mo"
+msgstr "Mo"
+
+#: includes/textfortr.php:50
+msgid "Tu"
+msgstr "Di"
+
+#: includes/textfortr.php:51
+msgid "We"
+msgstr "Mi"
+
+#: includes/textfortr.php:52
+msgid "Th"
+msgstr "Do"
+
+#: includes/textfortr.php:53
+msgid "Fr"
+msgstr "Fr"
+
+#: includes/textfortr.php:54
+msgid "Sa"
+msgstr "Sa"
+
+#: includes/textfortr.php:57
+msgid "available"
+msgstr "verfügbar"
+
+#: includes/textfortr.php:62 includes/textfortr.php:89
+msgid "No hour available."
+msgstr "Keine Stunde verfügbar."
+
+#: includes/textfortr.php:63
+msgid "Start hour"
+msgstr "Startstunde"
+
+#: includes/textfortr.php:64
+msgid "End hour"
+msgstr "Endstunde"
+
+#: includes/textfortr.php:65
+msgid "Item count"
+msgstr "Anzahl"
+
+#: includes/textfortr.php:66 includes/textfortr.php:90
+msgid "I accept to agree to the Terms & Conditions."
+msgstr "Ich akzeptiere die Allgemeinen Geschäftsbedingungen."
+
+#: includes/textfortr.php:67 includes/textfortr.php:91
+msgid "Reservation"
+msgstr "Reservierung"
+
+#: includes/textfortr.php:68 includes/textfortr.php:92
+msgid "Please select the days from calendar."
+msgstr "Bitte die Tage im Kalender auswählen."
+
+#: includes/textfortr.php:71
+msgid "Book Now"
+msgstr "Jetzt verbindlich buchen"
+
+#: includes/textfortr.php:72 includes/textfortr.php:93
+msgid "Your request has been successfully sent. Please wait for approval."
+msgstr ""
+"Ihre Anfrage wurde erfolgreich verschickt. Bitte auf Bestätigung warten."
+
+#: includes/textfortr.php:73 includes/textfortr.php:94
+msgid "Your request has been successfully received. We are waiting you!"
+msgstr "Ihre Anfrage wurde erfolgreich empfangen. Wir erwarten dich!"
+
+#: includes/textfortr.php:74 includes/textfortr.php:95
+msgid "There are no services available for this day."
+msgstr "An diesem Tag ist leider nichts verfügbar."
+
+#: includes/textfortr.php:75 includes/textfortr.php:102
+msgid "There are no services available for the period you selected."
+msgstr "Für den gewünschten Zeitraum leider nicht verfügbar."
+
+#: includes/textfortr.php:76 includes/textfortr.php:103
+msgid "Email on book to administrator doesn't send"
+msgstr "E-Mail der Buchung wurde nicht an den Administrator gesandt"
+
+#: includes/textfortr.php:77 includes/textfortr.php:104
+msgid "Email on approved to administrator doesn't send"
+msgstr "E-Mail der Bestätigung wurde nicht an den Administrator gesandt"
+
+#: includes/textfortr.php:78 includes/textfortr.php:105
+msgid "Email on book to user doesn't send"
+msgstr "E-Mail der Buchung wurde nicht an den Benutzer gesandt"
+
+#: includes/textfortr.php:79 includes/textfortr.php:106
+msgid "Email on approved to user doesn't send"
+msgstr "E-Mail der Buchung wurde nicht an den Benutzer gesandt"
+
+#: includes/textfortr.php:80 includes/textfortr.php:107
+msgid "Email on canceled to user doesn't send"
+msgstr "E-Mail des Abbruchs wurde nicht an den Benutzer gesandt"
+
+#: includes/textfortr.php:81 includes/textfortr.php:108
+msgid "Email on delete to user doesn't send"
+msgstr "E-Mail der Löschung wurde nicht an den Benutzer gesandt"
+
+#: includes/textfortr.php:82
+msgid "New countries Field"
+msgstr "Neues Länder-Feld"
+
+#: includes/textfortr.php:83
+msgid "Last Name"
+msgstr "Nachname"
+
+#: includes/textfortr.php:87
+msgid "Number of nights"
+msgstr "Anzahl der Nächte"
+
+#: includes/textfortr.php:96
+msgid "You must select at least two days"
+msgstr "Es müssen mindestens zwei Tage ausgewählt sein"
+
+#: includes/textfortr.php:98
+msgid "You must select  more than [max] days"
+msgstr "Es müssen mindestens [max] Tage ausgewählt sein"
+
+#: includes/textfortr.php:100
+msgid "You must select  more than [max] hour"
+msgstr "Es müssen mindestens [max] Stunden ausgewählt werden"
+
+#: includes/textfortr.php:101
+msgid "Was not verified by recaptcha"
+msgstr "Wurde nicht von ReCaptcha überprüft werden"
+
+#: includes/textfortr.php:109
+msgid "Pay in cash"
+msgstr "Barzahlung"
+
+#: includes/textfortr.php:110
+msgid "Pay with PayPal"
+msgstr "PayPal-Zahlung"
+
+#: includes/textfortr.php:111
+msgid "Same as billing info"
+msgstr "Identisch mit Rechungsinformation"
+
+#: includes/widgets/widget-booking_calendar.php:6
+msgid "Displays Booking Calendar WpDevArt"
+msgstr "Zeigt den Buchungskalender WpDevArt an"
+
+#: includes/widgets/widget-booking_calendar.php:40
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/widgets/widget-booking_calendar.php:45
+msgid "Calendar to display"
+msgstr "Kalender am Bildschirm"
+
+#: includes/wpdevart_lib.php:101
+msgid "Multilingual fields?"
+msgstr "Mehrsprachige Felder?"
+
+#: includes/wpdevart_lib.php:104
+msgid ""
+"If you use multilingual Form, Extra, Notifications, then you need to type "
+"translation words instantly from here(not from translation files). Just find "
+"the language prefix(code) and add words as it shown in example."
+msgstr ""
+"Wenn Sie mehrsprachige Formulare, Extras und Benachrichtigungen verwenden, "
+"müssen Sie Übersetzungswörter direkt von hier aus eingeben (nicht aus "
+"Übersetzungsdateien). Finden Sie einfach das Sprachpräfix (Code) und fügen "
+"Sie Wörter hinzu, wie im Beispiel gezeigt."
+
+#: includes/wpdevart_lib.php:105
+msgid "Get prefixes for your languages"
+msgstr "Erhalten Sie Präfixe für Ihre Sprachen"
+
+#: includes/wpdevart_lib.php:332
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: includes/wpdevart_lib.php:604
+msgid "Day Count"
+msgstr "Tagesanzahl"
+
+#: includes/wpdevart_lib.php:604
+msgid "Hour Count"
+msgstr "Stundenanzahl"
+
+#: includes/wpdevart_lib.php:616 includes/wpdevart_lib.php:626
+#: includes/wpdevart_lib.php:637
+msgid "Percent"
+msgstr "Prozent"
+
+#: includes/wpdevart_lib.php:616
+msgid "Add Conditions"
+msgstr "Bedingungen hinzufügen"
+
+#: includes/wpdevart_lib.php:662
+msgid "Add Hour"
+msgstr "Stunde hinzufügen"
+
+#: includes/wpdevart_lib.php:663
+msgid "Add Default"
+msgstr "Standard hinzufügen"
+
+#: includes/wpdevart_lib.php:737 includes/wpdevart_lib.php:794
+#: includes/wpdevart_lib.php:840 includes/wpdevart_lib.php:883
+#: includes/wpdevart_lib.php:922 includes/wpdevart_lib.php:1003
+#: includes/wpdevart_lib.php:1040 includes/wpdevart_lib.php:1071
+#: includes/wpdevart_lib.php:1130
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: includes/wpdevart_lib.php:743 includes/wpdevart_lib.php:800
+#: includes/wpdevart_lib.php:846 includes/wpdevart_lib.php:889
+#: includes/wpdevart_lib.php:928 includes/wpdevart_lib.php:1009
+#: includes/wpdevart_lib.php:1077
+msgid "Required"
+msgstr "Erforderlich"
+
+#: includes/wpdevart_lib.php:750
+msgid "Multiple select"
+msgstr "Mehrfachauswahl"
+
+#: includes/wpdevart_lib.php:757
+msgid "Options"
+msgstr "Optionen"
+
+#: includes/wpdevart_lib.php:758
+msgid "Add one per line"
+msgstr "Füge eins pro Zeile hinzu"
+
+#: includes/wpdevart_lib.php:935
+msgid "Is Email"
+msgstr "Ist E-Mail"
+
+#: includes/wpdevart_lib.php:936
+msgid "Use only for Email field"
+msgstr "Nur für E-Mailfeld benutzen"
+
+#: includes/wpdevart_lib.php:943
+msgid "Confirm Email"
+msgstr "E-Mail bestätigen"
+
+#: includes/wpdevart_lib.php:950
+msgid "Is Name"
+msgstr "Ist Name"
+
+#: includes/wpdevart_lib.php:1084
+msgid "Allowed File Types"
+msgstr "Zugelassene Dateitypen"
+
+#: includes/wpdevart_lib.php:1085
+msgid ""
+"Choose the file types that you want to allow users for submitting in form."
+msgstr ""
+"Wählen Sie die Dateitypen aus, die Sie Benutzern zum Senden im Formular "
+"erlauben möchten."
+
+#: includes/wpdevart_lib.php:1092
+msgid "Allowed maximum size(KB)"
+msgstr "Zulässige maximale Größe (in KB)"
+
+#: includes/wpdevart_lib.php:1093
+msgid "Type the allowed maximum size for uploading files(KB)."
+msgstr ""
+"Geben Sie die zulässige maximale Größe zum Hochladen von Dateien (in KB) ein."
+
+#: includes/wpdevart_lib.php:1136
+msgid "Regardless of counting days"
+msgstr "Unabhängig von der Zählung der Tage"
+
+#: includes/wpdevart_lib.php:1145
+msgid "Regardless of Item count"
+msgstr "Unabhängig von der Produktanzahl"
+
+#: includes/wpdevart_lib.php:1154
+msgid "Items"
+msgstr "Elemente"
+
+#: includes/wpdevart_lib.php:1732
+msgid "Select Country"
+msgstr "Land auswählen"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpdevart.com/wordpress-booking-calendar-plugin"
+msgstr "https://wpdevart.com/wordpress-booking-calendar-plugin"
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress Booking Calendar plugin is an awesome tool to create a booking "
+"system for your website. Create booking calendars in a few minutes."
+msgstr ""
+"Das WordPress-Buchungskalender-Plugin ist ein großartiges Tool zum Erstellen "
+"eines Buchungssystems für Ihre Website. Erstellen Sie Buchungskalender in "
+"wenigen Minuten."
+
+#. Author of the plugin/theme
+msgid "WpDevArt"
+msgstr "WpDevArt"
+
+#. Author URI of the plugin/theme
+msgid "https://wpdevart.com"
+msgstr "https://wpdevart.com"
+
+#~ msgid "Quick Edit"
+#~ msgstr "Schnelles Bearbeiten"
+
+#~ msgid "Delete day data"
+#~ msgstr "Informationen zum Tag löschen"
+
+#~ msgid "Information for administrators"
+#~ msgstr "Information für Verwalter"
+
+#~ msgid "Different values for different days of week"
+#~ msgstr "Verschiedene Werte für verschiedene Wochentage"
+
+#~ msgid "Set days availability"
+#~ msgstr "Verfügbarkeit setzen"
